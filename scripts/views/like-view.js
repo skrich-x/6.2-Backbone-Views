@@ -13,7 +13,7 @@ export default Backbone.View.extend({
     this.model.like();
   },
 
-  initialize: function(){
+  initialize: function(e){
     this.render ();
   },
 
